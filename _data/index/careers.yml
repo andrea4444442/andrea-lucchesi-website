@@ -1,0 +1,20 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+
+-   name:
+        detail: Banca Popolare di Lajatico (Sovigliana, Italy)
+    desc:
+        detail: Front-office and credit-area operations, data accuracy, internal compliance.
+    date:
+        detail: Apr 2022 – Oct 2022
+    job:
+        detail: Front Office Operations – Credit Area
+
+-   name:
+        detail: Public Assistance Organization (Santa Maria a Monte, Italy)
+    desc:
+        detail: Healthcare and social assistance, first-aid support, emergency-response operations.
+    date:
+        detail: Jan 2019 – Jan 2020
+    job:
+        detail: Healthcare Assistant (National Civil Service)

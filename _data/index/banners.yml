@@ -1,0 +1,9 @@
+# carousel banners section
+# Add items for each banner image in the carousel
+#
+# Images are expected to be located in `static/assets/img/`.
+-   src: landing/banner-1.jpeg
+    title: Andrea Lucchesi
+
+-   src: landing/banner-2.png
+    title: Corporate Finance

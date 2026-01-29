@@ -1,0 +1,301 @@
+.landing-page .carousel-caption {
+  h1, p {
+    text-transform: uppercase;
+  }
+}
+
+button.dim {
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+h6 {
+  font-size: 10px;
+}
+
+h3, h4, h5 {
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.nav {
+  > li > a {
+    color: #a7b1c2;
+    font-weight: 600;
+    padding: 14px 20px 14px 25px;
+  }
+  &.navbar-right > li > a {
+    color: #999c9e;
+  }
+  > li.active > a {
+    color: #fff;
+  }
+}
+
+.navbar-default .nav > li > a {
+  &:focus, &:hover {
+    background-color: #293846;
+    color: #fff;
+  }
+}
+
+.nav.navbar-top-links > li > a {
+  &:focus, &:hover {
+    background-color: transparent;
+  }
+}
+
+.navbar-default {
+  background-color: transparent;
+}
+
+.nav > li > a i {
+  margin-right: 6px;
+}
+
+.navbar {
+  border: 0;
+}
+
+.navbar-default {
+  border-color: #2f4050;
+}
+
+.navbar-top-links li {
+  display: inline-block;
+  &:last-child {
+    margin-right: 40px;
+  }
+}
+
+.body-small .navbar-top-links li:last-child {
+  margin-right: 0;
+}
+
+.navbar-top-links li a {
+  padding: 20px 10px;
+  min-height: 50px;
+}
+
+.dd-item > button, code {
+  white-space: nowrap;
+}
+
+.nav-header {
+  padding: 33px 25px;
+  background: url(patterns/header-profile.png) no-repeat;
+}
+
+.nav > li.active {
+  border-left: 4px solid #3385FF;
+  background: #293846;
+}
+
+.nav-header {
+  a {
+    color: #DFE4ED;
+  }
+  .text-muted {
+    color: #8095a8;
+  }
+}
+
+.navbar-form-custom {
+  float: left;
+  height: 50px;
+  padding: 0;
+  width: 200px;
+  display: inline-table;
+}
+
+.nav.navbar-top-links a {
+  font-size: 14px;
+}
+
+.navbar-form-custom .form-control {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 14px;
+  height: 60px;
+  margin: 0;
+  z-index: 2000;
+}
+
+.count-info .label {
+  line-height: 12px;
+  padding: 2px 5px;
+  position: absolute;
+  right: 6px;
+  top: 12px;
+}
+
+.navbar-default .landing_link a {
+  background: #3385FF;
+  color: #fff;
+  &:hover {
+    background: #3385FF !important;
+    color: #fff;
+  }
+  span.label {
+    background: #fff;
+    color: #3385FF;
+  }
+}
+
+.navbar-fixed-top {
+  transition-duration: .4s;
+  border-bottom: 1px solid #e7eaec !important;
+  z-index: 2030;
+  background: #f3f3f4;
+}
+
+.navbar-static-top {
+  background: #f3f3f4;
+}
+
+.fixed-nav #wrapper {
+  margin-top: 0;
+}
+
+body {
+  &.fixed-nav #wrapper #page-wrapper {
+    margin-top: 60px;
+  }
+  &.top-navigation.fixed-nav #wrapper #page-wrapper {
+    margin-top: 0;
+  }
+  &.fixed-nav.fixed-nav-basic {
+    .navbar-fixed-top {
+      left: 220px;
+    }
+    &.body-small .navbar-fixed-top {
+      left: 0;
+    }
+  }
+}
+
+.body-small .navbar-fixed-top {
+  margin-left: 0;
+}
+
+body.canvas-menu .nav-header {
+  padding: 33px 25px;
+}
+
+.top-navigation #page-wrapper {
+  margin-left: 0;
+}
+
+.white-bg {
+  .navbar-fixed-top, .navbar-static-top {
+    background: #fff;
+  }
+}
+
+.top-navigation {
+  .navbar {
+    margin-bottom: 0;
+  }
+  .nav > li {
+    > a {
+      padding: 15px 20px;
+      color: #676a6c;
+    }
+    a {
+      &:focus, &:hover {
+        background: #fff;
+        color: #3385FF;
+      }
+    }
+    &.active {
+      background: #fff;
+      border: none;
+      > a {
+        color: #3385FF;
+      }
+    }
+  }
+  .navbar-right {
+    margin-right: 10px;
+  }
+}
+
+.btn-default {
+  &.active, &:active {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15) inset;
+  }
+}
+
+.btn-white {
+  &.active, &:active {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15) inset;
+  }
+}
+
+.top-navigation .navbar-brand {
+  background: #3385FF;
+  color: #fff;
+  padding: 15px 25px;
+}
+
+.btn-info {
+  &.active, &:active {
+    background-image: none;
+  }
+}
+
+.btn-primary {
+  &.active, &:active {
+    background-image: none;
+  }
+}
+
+.btn-success {
+  &.active, &:active {
+    background-image: none;
+  }
+}
+
+.top-navigation .navbar-top-links li:last-child {
+  margin-right: 0;
+}
+
+.canvas-menu #page-wrapper {
+  margin: 0;
+}
+
+.fixed-nav #wrapper.top-navigation {
+  margin-top: 50px;
+}
+
+.top-navigation {
+  &.fixed-nav #wrapper {
+    margin-top: 50px;
+  }
+  .wrapper.wrapper-content {
+    padding: 40px;
+  }
+}
