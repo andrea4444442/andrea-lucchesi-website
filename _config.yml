@@ -22,12 +22,8 @@ author: # change following line to your information.
     email: a.lucchesi1999@gmail.com
     cv: /static/assets/img/landing/Andrea_Lucchesi_CV_EN.pdf
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
-    skill_icon1:
-    -   name: fa-line-chart
-    -   name: fa-briefcase
-    skill_icon2:
-    -   name: fa-calculator
-    -   name: fa-globe
+    skill_icon1: []
+    skill_icon2: []
     #desc: Started as a physicist trying to model the universe, but now I am  working with brains — where everything's unpredictable, and the closest thing to certainty is a p-value. # Describe yourself.
     desc: Corporate Finance Analyst.
 
