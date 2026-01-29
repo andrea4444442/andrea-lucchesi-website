@@ -4,10 +4,10 @@
 
 - name: Project Finance Model – Underground Parking Facility (Como)
   i18n: Markdown
-  img: static/assets/img/landing/banner-1.jpeg
+  img: /static/assets/img/landing/banner-1.jpeg
   desc: Built a full project finance model with NPV, IRR, WACC, DSCR/ADSCR/LLCR, and scenario analysis.
 
 - name: Business Plan & E-commerce Development – Terre del Sole Zerilli
   i18n: Markdown
-  img: static/assets/img/landing/banner-2.png
+  img: /static/assets/img/landing/banner-2.png
   desc: Developed a three-year business plan, break-even model, and best/worst-case profitability scenarios.
